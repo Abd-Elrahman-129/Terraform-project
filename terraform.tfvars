@@ -5,3 +5,6 @@ subnets = {
     az         = "us-east-1a"
   }
 }
+
+key_name          = "my-key"
+private_key_path  = "~/.ssh/my-key.pem"

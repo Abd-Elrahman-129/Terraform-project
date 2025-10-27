@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "abdelrahman-hussein-s3-backend-22334455"
+    bucket = "abdelrahman-hussein-s3-backend-2244"
     key    = "tfstate"
     region = "us-east-1"
     use_lockfile = true

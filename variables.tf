@@ -13,6 +13,12 @@ variable "subnets" {
 }
 
 variable "azs" {
-  type    = list(string)
-  default = ["us-east-1a", "us-east-1b"]
+  default = ["us-east-1a"]
+}
+
+variable "key_name" {
+  default = "my-key"
+}
+variable "private_key_path" {
+  default = "~/.ssh/my-key.pem"
 }
